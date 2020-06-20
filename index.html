@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Assignment</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link rel="stylesheet" href="./assets/style/all.css">
+        <!-- 載入 jQuery 核心 -->
+        <!-- <script src="./assets/script/jquery.min.js"></script> -->
+        <!-- 載入 jQuery bootstrap 核心 -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <!-- 網站 all.js -->
+        <script src="./assets/script/all.js"></script>
+        <!-- 引入共同變數及資料 -->
+        
+    </head>
+    <body>
+        <div class="container custom-gutters container-custom">
+            <div class="row border">
+                <div class="col-lg-3 px-0">
+                    <!-- 引入主選單 -->
+                    
+<nav class="align-items-start custom-primary-bg h-100 mr-4 navbar navbar-expand-lg p-0">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- 主選單開始 -->
+    <div class="sidebar collapse navbar-collapse flex-column justify-content-between align-items-start" id="navbarNav">
+     
+      <ul class="flex-column navbar-nav w-100">
+        <li class="nav-item">
+           <a class="navbar-brand my-4 px-4" href="#">
+            <img src="./assets/images/logo-ANSWER.svg"  class="d-inline-block align-top p-2" alt="">        
+           </a>
+        </li>
+        
+        
+          
+            <li class="nav-item px-4 font-weight-bold custom-item ">
+                <a class="nav-link custom-nav-link text-dark " href="" target="_self">
+                  <span class="material-icons mr-3">
+                    insert_chart
+                  </span>
+                  Dashboard
+                </a>
+            </li>
+        
+          
+            <li class="nav-item px-4 font-weight-bold custom-item ">
+                <a class="nav-link custom-nav-link text-dark " href="" target="_self">
+                  <span class="material-icons mr-3">
+                    forum
+                  </span>
+                  Question
+                </a>
+            </li>
+        
+          
+            <li class="nav-item px-4 font-weight-bold custom-item active">
+                <a class="nav-link custom-nav-link text-dark " href="index.html" target="_self">
+                  <span class="material-icons mr-3">
+                    assignment
+                  </span>
+                  Assignment
+                </a>
+            </li>
+        
+          
+            <li class="nav-item px-4 font-weight-bold custom-item ">
+                <a class="nav-link custom-nav-link text-dark " href="#" target="_self">
+                  <span class="material-icons mr-3">
+                    library_music
+                  </span>
+                  Course
+                </a>
+            </li>
+        
+          
+            <li class="nav-item px-4 font-weight-bold custom-item ">
+                <a class="nav-link custom-nav-link text-dark " href="admin.html" target="_self">
+                  <span class="material-icons mr-3">
+                    supervisor_account
+                  </span>
+                  Admin
+                </a>
+            </li>
+        
+          
+            <li class="nav-item px-4 font-weight-bold custom-item ">
+                <a class="nav-link custom-nav-link text-dark " href="" target="_self">
+                  <span class="material-icons mr-3">
+                    settings
+                  </span>
+                  Settings
+                </a>
+            </li>
+                
+      </ul>
+      <div class="media custom-media align-items-center px-4 py-2 my-4">
+        <img src="./assets/images/andychen.jpeg" class="mr-3 ml-2 rounded-circle" alt="...">
+        <div class="media-body">
+          <h6 class="my-1 font-weight-bold">Andy Chen</h6>
+          andy0401@mail.com
+        </div>
+      </div>
+    </div>
+    
+</nav>
+           
+
+                </div>
+                <div class="col-lg-9 px-0">
+                    <!-- 引入標頭及導覽列 -->
+                    <nav class="navbar navbar-expand-lg navbar-light my-4 px-2 font-weight-bold">
+    <a class="navbar-brand mr-5" href="#"><h4 class="mb-0">Assignment</h4></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ">
+        <!-- <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> -->
+        <!-- dropdown menu-->
+        <li class="nav-item dropdown" id="sub-menu-dropdown">
+          <a class="nav-link dropdown-toggle pl-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            All Courses
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Chapter Assignment 2</a>
+            <a class="dropdown-item" href="#">Chapter Assignment 1</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Final Assignment</a>
+          </div>
+        </li>
+        <!--  -->
+        <li class="sub-menu-add" id="sub-menu-add-admin">
+          <a class="nav-link text-dark d-flex" id="sub-menu-add-admin" href="#" data-toggle="modal" data-target="#ModalLong">
+            <span class="material-icons mr-2">
+              add
+            </span>
+            Add New Admin
+          </a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+      
+      <ul class="navbar-nav">
+      
+        <li class="nav-item">
+          <a class="nav-link text-dark d-flex" href="#">
+            <span class="material-icons mr-2">
+              search
+            </span>
+          </a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link text-dark d-flex" href="#">
+            <span class="material-icons mr-2">
+              notifications_active
+            </span>
+          </a>
+        </li>
+      
+      </ul>
+       
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+    </div>
+</nav>
+                    
+                    <div class="content px-2">
+                        <!-- 主要內容開始 -->
+                        <div class="row">
+    <div class="col-4 px-0">
+        <nav class="navbar navbar-expand-lg navbar-light p-0 font-weight-bold">
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">          
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle pl-0 pb-1 pt-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    All(4)
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Chapter Assignment 2</a>
+                    <a class="dropdown-item" href="#">Chapter Assignment 1</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Final Assignment</a>
+                </div>
+                </li>          
+            </ul>      
+            </div>
+        </nav>
+        
+        <div class="list-group text-dark">
+            <!-- <a href="#" class="list-group-item list-group-item-action active">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small>3 days ago</small>
+            </div>
+            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            <small>Donec id elit non mi porta.</small>
+            </a> -->
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between ">
+                    <small class="text-muted font-weight-bold">Chapter Assignment 2</small>
+                    <small class="text-muted font-weight-bold">4 hrs ago</small>
+                </div>
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 font-weight-bold">Please check this file…</h6>
+                    <small class="text-muted">Emily Wang</small>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between ">
+                    <small class="text-muted font-weight-bold">Chapter Assignment 1</small>
+                    <small class="text-muted font-weight-bold">12 hrs ago</small>
+                </div>
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 font-weight-bold">My Homework</h6>
+                    <small class="text-muted">David Xu</small>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between ">
+                    <small class="text-muted font-weight-bold">Final Assignment</small>
+                    <small class="text-muted font-weight-bold">18 hrs ago</small>
+                </div>
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 font-weight-bold">Have a problem with this…</h6>
+                    <small class="text-muted">Tony Wei</small>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between ">
+                    <small class="text-muted font-weight-bold">Final Assignment</small>
+                    <small class="text-muted font-weight-bold">19 hrs ago</small>
+                </div>
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 font-weight-bold">Did I do it right?</h6>
+                    <small class="text-muted">Christina Lin</small>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-8">
+        <p class="mb-1 text-right"><small class="text-muted">2 comments</small></p>
+        <div class="card mb-3" >
+            <ul class="list-unstyled card-header custom-primary-bg d-flex justify-content-between align-items-center">
+                <li>
+                    <small class="text-muted">Chapter Assignment 2 / HTML&CSS</small>
+                    <h6 class="mb-1 font-weight-bold">Please check this file for me, thanks!</h6>
+                </li>    
+                <li>
+                    <span class="material-icons mr-2">more_vert</span>
+                </li>            
+            </ul>
+            <ul class="list-unstyled pl-3 pt-3 pr-4 custom-media">
+                <li class="media mb-3 mr-2">
+                <img src="./assets/images/emilywang.jpeg" class="mr-2 rounded-circle" alt="...">
+                <div class="media-body border-bottom pb-3">
+                    <h6 class="mt-0 mb-1">Emily Wang</h6>
+                    <p><small class="text-muted">10:38 AM (4 hours ago)</small></p>
+                    <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <mark>div</mark> is bigger than the height of the <mark>img</mark> ? There is a gap below the image, but it doesn’t seems to be a padding/margin. <br>What is the gap or extra space below image?</p>
+                    <a class="btn custom-btn-primary font-weight-bold" href="#" role="button">
+                        <i class="material-icons mr-1 align-middle">
+                            attach_file
+                        </i>
+                        HW-2-David.zip
+                    </a>
+                </div>              
+                </li>
+                <li class="media mr-2">
+                    <img src="./assets/images/andychen.jpeg" class="mr-2 rounded-circle" alt="...">
+                    <div class="media-body pb-0">
+                        <ul class="list-unstyled d-flex justify-content-between align-items-center">
+                            <li>
+                                <h6 class="mt-0 mb-1">Andy Chen (You)</h6>
+                                <p><small class="text-muted">13:24 AM (1 hours ago)</small></p>
+                            </li>    
+                            <li>
+                                <a class="text-dark" href="#"><span class="material-icons mr-4">star_border</span></a>
+                                <a class="text-dark" href="#"><span class="material-icons">edit</span></a>
+                            </li>            
+                        </ul>                       
+                        <p>Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.
+                            <p> You can: </p>
+                            <ul class="custom-list-style pl-3">
+                                <li>adjust the <mark> vertical-align </mark> of the image to position it elsewhere (e.g. the <mark> middle </mark>) or 　</li>
+                                <li>change the <mark> display </mark> so it isn’t inline.</li>
+                            </ul> 
+                        </p>   
+                    </div>              
+                </li>
+                
+            </ul>
+            
+        </div>
+        <ul class="list-unstyled replay-bk  d-flex justify-content-between align-items-center">
+            <li class="d-flex">
+                <a class="text-dark" href="#"><span class="material-icons mr-4">chevron_left</span></a>
+                <a class="text-dark" href="#"><span class="material-icons">chevron_right</span></a>
+            </li>
+            <li class="d-flex">
+                <input class="btn btn-outline-success mr-4" type="button" value="Mark as read">
+                <input class="btn custom-btn-success" type="submit" value="Reply">
+            </li>
+        </ul> 
+        <div class="replay card mb-3" >
+            <form action="">
+            <ul class="list-unstyled card-header custom-primary-bg d-flex align-items-center">
+                <li class="d-flex mr-4">
+                    <h6 class="mb-1 font-weight-bold">Body Text</h6>
+                    <span class="material-icons mr-2">arrow_drop_down</span>
+                </li>
+                <li class="material-icons mr-4">
+                    format_bold
+                </li>
+                <li class="material-icons mr-4">
+                    format_italic
+                 </li>    
+                <li class="material-icons mr-4">
+                    format_list_bulleted
+                </li>
+                          
+                 <li class="material-icons mr-4">
+                    format_list_numbered
+                </li>
+                <li class="material-icons mr-4">
+                    insert_photo
+                </li>
+                <li class="material-icons mr-4">
+                    insert_link
+                </li>
+                <li class="material-icons">
+                    code
+                </li> 
+            </ul>
+            <!-- <div class="replay-edit card-body">                -->
+                <!-- <p class="card-text text-muted">Reply an answer…</p> -->
+                <div class="form-group">
+                    <!-- <label for="FormControlTextarea1">Example textarea</label> -->
+                    <textarea class="form-control border-0" id="FormControlTextarea1" rows="7" placeholder="Reply an answer…"></textarea>
+                </div>
+                              
+            <!-- </div> -->
+            <div class="card-footer d-flex justify-content-end">
+                <input class="btn custom-btn-cancel btn-outline-success mr-4" type="button" value="Cancel">
+                <input class="btn custom-btn-success" type="submit" value="Reply">
+            </div> 
+            </form> 
+        </div>  
+    </div>
+</div>
+
+                        <!-- 主要內容結束 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
